@@ -1,9 +1,9 @@
-# **Server basic express config**
-
 ----
-THIS README UNDER CONSTRUCTION
+THIS README IS UNDER CONSTRUCTION
 
 ------
+# **Server basic express config**
+
 
 Here you have a basic config for a server with [Node.js](https://nodejs.org/es/) and [Express](https://www.npmjs.com/package/express).
 
