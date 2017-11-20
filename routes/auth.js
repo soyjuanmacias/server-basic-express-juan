@@ -10,7 +10,7 @@ const User = require("../models/User")
 authRoutes.get("/signup", AuthController.signup)
 authRoutes.post('/signup', passport.authenticate('local-signup', {
   successRedirect : '/auth/login',
-  failureRedirect : '/auth/signup'
+  failureRedirect : '/auth/signup',
 }))
 
 authRoutes.get('/login',ensureLogin.ensureLoggedOut('/'), AuthController.login)

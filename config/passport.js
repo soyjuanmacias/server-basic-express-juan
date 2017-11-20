@@ -58,24 +58,17 @@ module.exports = function() {
     }));
 
   passport.use('local-login', new LocalStrategy((username, password, next) => {
-    console.log('Holaaaa');
-    User.findOne({
+     User.findOne({
       username
     }, (err, user) => {
       if (err) {
-        return next(err, {
-          message: "RINGG: Donde vas error?"
-        })
+        return next(err)
       }
       if (!user) {
-        return next(null, false, {
-          message: "RINGG: Usuario Incorrecto"
-        })
+        return next(null, false)
       }
       if (!bcrypt.compareSync(password, user.password)) {
-        return next(null, false, {
-          message: "RINGG: Esa contraseña no es correcta"
-        })
+        return next(null, false)
       }
       return next(null, user);
     });
