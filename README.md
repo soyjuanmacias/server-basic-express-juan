@@ -15,6 +15,10 @@ npm install --save
 ```
 And you will install all packages with this command.
 
+## Features:
+- App.js only 10 lines.
+![App.js](https://image.prntscr.com/image/6MMGuZfmQMWfRcOJihuD-Q.png)
+
 # Pre-installed packages (Alphabetical order)
 
 ## [Bcrypt](https://www.npmjs.com/package/bcrypt)
