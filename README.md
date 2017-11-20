@@ -7,7 +7,7 @@ THIS README IS UNDER CONSTRUCTION, please, be patient.
 
 Here you have a basic config for a server with [Node.js](https://nodejs.org/es/) and [Express](https://www.npmjs.com/package/express).
 
-# Pre-installed packages (Alphabetical order)
+# Pre-installed packages (Alphabetical order)
 ## [bcrypt](https://www.npmjs.com/package/bcrypt)
 - Lib to help you hash passwords.
   -  We use it with [passport.](#passport)
