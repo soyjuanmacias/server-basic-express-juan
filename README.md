@@ -5,7 +5,7 @@ THIS README IS UNDER CONSTRUCTION, please, be patient.
 # Basic and empty Node.js & Express.js server  with auth ready for start to code
 
 
-Here you have a basic config for a server with [Node.js](https://nodejs.org/es/) and [Express](https://www.npmjs.com/package/express).
+Here you have a basic config for a server with [Node.js](https://nodejs.org/es/) and [Express](https://www.npmjs.com/package/express). Project created by [Juan Macías](http://github.com/soyjuanmacias) with original base by [Xenock.](http://github.com/xenock)
 
 This repository contains a server with the necessary packages to start any project in Node.js
 
