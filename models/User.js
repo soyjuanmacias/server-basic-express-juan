@@ -9,8 +9,7 @@ const userSchema = new Schema({
     type: String,
     enum: [
       'admin',
-      'user',
-      'professional'
+      'user'
     ],
     default: 'user'
   }
