@@ -54,7 +54,7 @@ We use this for create schema models for MongoDB and make sure that the data we 
 ![Debug](https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png
 
 ## [Dotenv](https://www.npmjs.com/package/dotenv)
-Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+- Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
 
 ## [EJS](https://www.npmjs.com/package/ejs)
 - EJS is an embedded Javascript templating library for render and show the view in our server.
@@ -62,7 +62,7 @@ Dotenv is a zero-dependency module that loads environment variables from a .env 
 ## [Express](https://www.npmjs.com/package/express)
 - The crown jewel for Node.js. Fast and minimalist web framework with routing, and others great features. It will allow us to create the model view controller easily and simply. Simplifying everything to create our backend easily.
 
-##[Express EJS Layouts](https://www.npmjs.com/package/express-ejs-layouts)
+## [Express EJS Layouts](https://www.npmjs.com/package/express-ejs-layouts)
 - Layout support for ejs in express.
 
 ## [Express-session](https://www.npmjs.com/package/express-session)
@@ -81,14 +81,14 @@ $ npm install express-session
 - Passport's sole purpose is to authenticate requests, which it does through an extensible set of plugins known as strategies. Passport does not mount routes or assume any particular database schema, which maximizes flexibility and allows application-level decisions to be made by the developer. The API is simple: you provide Passport a request to authenticate, and Passport provides hooks for controlling what occurs when authentication succeeds or fails.
 
 
-## [Passport-local](https://www.npmjs.com/package/passport-local)
+## [Passport-local](https://www.npmjs.com/package/passport-local)
 - Passport strategy for authenticating with a username and password.
 
 - This module lets you authenticate using a username and password in your Node.js applications. By plugging into Passport, local authentication can be easily and unobtrusively integrated into any application or framework that supports Connect-style middleware, including Express.
 
 
 
-# --Español
+# Español
 # Basic and empty Node.js & Express.js server  with auth ready for start to code
 
 Aquí tienes la configuración básica para un servidor montado con [Node.js](https://nodejs.org/es/) y [Express](https://www.npmjs.com/package/express) con autentificación con [Passport](https://www.npmjs.com/package/passport).
@@ -112,4 +112,4 @@ Y tendrás instalados todos los paquetes con ese comando.
 - En lugar de llevar a cabo la acción del controlador en las rutas, pasamos a ejecutar las acciones al controlador. Código mas limpio y ordenado.
 - Middeware para guardar los datos del usuario y enviarlo a cualquier petición. (res.locals.user)
 
-Original idea: [Xenock](https://github.com/xenock)
+Idea original: [Xenock](https://github.com/xenock)
