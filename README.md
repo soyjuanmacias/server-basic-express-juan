@@ -109,3 +109,4 @@ Y tendrás instalados todos los paquetes con ese comando.
 - Middeware para guardar los datos del usuario y enviarlo a cualquier petición. (res.locals.user)
 
 Idea original: [Xenock](https://github.com/xenock)
+
